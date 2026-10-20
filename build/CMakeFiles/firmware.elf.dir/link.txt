@@ -1,0 +1,1 @@
+/opt/homebrew/bin/arm-none-eabi-g++ -O3 -DNDEBUG -L/opt/homebrew/opt/llvm/lib -mcpu=cortex-m7 -mthumb -mfpu=fpv5-d16 -mfloat-abi=hard -T /Users/rhyol/Developer/STM/linker/STM32H753ZI.ld -Wl,--gc-sections -Wl,-Map=firmware.map CMakeFiles/firmware.elf.dir/startup/stm32h753xx.s.obj CMakeFiles/firmware.elf.dir/src/main.cpp.obj -o firmware.elf

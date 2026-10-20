@@ -1,0 +1,6 @@
+.DS_Store
+build/firmware.bin
+build/firmware.elf
+build/firmware.map
+
+
